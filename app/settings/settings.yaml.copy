@@ -1,0 +1,4 @@
+app:
+  host: host
+  port: port
+  base_url: https://base_url.com

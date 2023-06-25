@@ -10,5 +10,5 @@ venv.bak/
 devEnv/
 devEnv.bak/
 
-
+app/settings/settings.yaml
 .vscode/
