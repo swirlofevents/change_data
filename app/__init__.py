@@ -1,2 +1,1 @@
-from .app import MAIN_APP
-from .settings import APP_SETTINGS
+from .app import MAIN_APP, APP_SETTINGS

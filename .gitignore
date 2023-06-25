@@ -11,4 +11,6 @@ devEnv/
 devEnv.bak/
 
 app/settings/settings.yaml
+app/settings/strings_data.json
 .vscode/
+__pycache__/
