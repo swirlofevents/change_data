@@ -1,4 +1,4 @@
 app:
-  host: host
-  port: port
-  base_url: https://base_url.com
+  host: localhost
+  port: 25083
+  base_url: https://blackrussia.online

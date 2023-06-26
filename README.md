@@ -31,3 +31,11 @@ python3 -m venv .venv
 source .venv/bin/activate
 pip install -r requirements.txt
 ```
+
+## Тестик
+
+[http://localhost:25083/test] - тестовая страница.
+
+#### Get параметры media_type=text/html&replace_content=True
+- **media_type** - Формат отображения *text/plain*, *text/html...* Defaults = **text/plain**.
+- **replace_content** - Заменять контент или нет. По дефолту не заменяется.
