@@ -2,7 +2,7 @@
 
 ## Настройки
 
-Основной файл настроек находится в app/settings/settings.yaml
+Основной файл настроек находится в app/settings/settings.yaml. 
 Образец настроек `app/settings/settings.yaml.copy`
 ### Секция app
 
@@ -21,7 +21,7 @@ app:
 ## Запуск приложения
 ### Быстрый запуск
 
-`start.bat` - windows пользователь
+`start.bat` - windows пользователь,
 `start.sh` - unix пользователь
 
 ### Медленный старт
