@@ -13,3 +13,10 @@ service_router = APIRouter()
 async def get_test(media_type: Union[str, None] = "text/plain", replace_content: Union[str, None] = ""):
     service = APIService()
     return await service.get_test_page(media_type=media_type, replace_content=replace_content)
+
+
+@service_router.get("/{path:path}")
+async def get_main(request: Request):
+    service = APIService()
+
+    return await service.get_rec_stream(request)

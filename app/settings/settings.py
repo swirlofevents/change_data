@@ -40,6 +40,11 @@ class AppSettings(metaclass=SingletonMeta):
         with open(strings_data_filename, "r", encoding="utf-8") as strings_file:
             self._strings_data = load(strings_file)
 
+        # TODO: убрать костыль, чтоб не перекидывало с приложения
+        self._strings_data[
+            self._config["app"]["base_url"] + ":433"
+        ] = f"http://{self._config['app']['host']}:{self._config['app']['port']}"
+
     @property
     def app_config(self) -> Dict:
         return self._config["app"]
