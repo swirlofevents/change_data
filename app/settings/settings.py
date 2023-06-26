@@ -42,7 +42,7 @@ class AppSettings(metaclass=SingletonMeta):
 
         # TODO: убрать костыль, чтоб не перекидывало с приложения
         self._strings_data[
-            self._config["app"]["base_url"] + ":433"
+            self._config["app"]["base_url"] + ":443"
         ] = f"http://{self._config['app']['host']}:{self._config['app']['port']}"
 
     @property
