@@ -34,7 +34,7 @@ pip install -r requirements.txt
 
 ## Тестик
 
-[http://localhost:25083/test] - тестовая страница.
+[http://localhost:25083/test](http://localhost:25083/test) - тестовая страница.
 
 #### Get параметры media_type=text/html&replace_content=True
 - **media_type** - Формат отображения *text/plain*, *text/html...* Defaults = **text/plain**.
